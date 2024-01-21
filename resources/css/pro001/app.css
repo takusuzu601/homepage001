@@ -25,4 +25,7 @@ img {
 }
 /* 超大型デバイス(大型のラップトップおよびデスクトップ、1200px 以上) */
 @media only screen and (min-width: 1200px) {
+    body {
+        background: red;
+    }
 }
