@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    background-color: #fff;
+}
+
+img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* 超小型デバイス (携帯電話,600px以下) */
+@media only screen and (max-width: 600px) {
+}
+/* 小型デバイス (縦長のタブレットおよび大型携帯電話、600px 以上) */
+
+@media only screen and (min-width: 600px) {
+}
+/* 中型デバイス (横向きタブレット、768px 以上) */
+@media only screen and (min-width: 768px) {
+}
+/* 大型デバイス (ラップトップ/デスクトップ、992px 以上) */
+@media only screen and (min-width: 992px) {
+}
+/* 超大型デバイス(大型のラップトップおよびデスクトップ、1200px 以上) */
+@media only screen and (min-width: 1200px) {
+}
